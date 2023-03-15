@@ -1,9 +1,10 @@
+# Docker image for [Cloudflared](https://github.com/cloudflare/cloudflared), a proxy-dns service.
+_
+
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-## About
-
-Docker image for [Cloudflared](https://github.com/cloudflare/cloudflared), a proxy-dns service.
-___
+## Index
+__
 
 * [Build locally](#build-locally)
 * [Image](#image)
