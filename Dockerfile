@@ -1,9 +1,9 @@
 # syntax=docker/dockerfile:1
 
 ARG CLOUDFLARED_VERSION=2024.1.0
-ARG ALPINE_VERSION=3.18
+ARG ALPINE_VERSION=3.19
 ARG GO_VERSION=1.21.5
-ARG XX_VERSION=1.1.2
+ARG XX_VERSION=1.3.0
 
 FROM --platform=${BUILDPLATFORM:-linux/amd64} tonistiigi/xx:${XX_VERSION} AS xx
 FROM --platform=${BUILDPLATFORM:-linux/amd64} golang:${GO_VERSION}-alpine AS builder
